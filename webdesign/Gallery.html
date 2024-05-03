@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+
+<style>
+    .topnav {
+        overflow: hidden;
+        background: #7265ed;
+    }
+
+    .topnav a {
+        float: left;
+        color: #e6e2e8;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: #dddddd;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #a2d328;
+        color: white;
+    }
+    .text {
+        color: #0e0844;
+        font-size: 15px;
+        padding: 8px 12px;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    div.gallery {
+        margin: 5px;
+        border: 5px ;
+        float: left;
+        width: 480px;
+    }
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+</style>
+</head>
+<body style="background: url(/images/backgrnd.jpg)">
+<div class="topnav">
+    <a href="simpleweb.html">Home</a>
+    <a class="active" href="#Gallery">Gallery</a>
+    <a href="Contacts.html">Contacts</a>
+    <a href="formuser.html">Login</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<div class="row">
+<div class="gallery">
+    <a target="_blank" href="images/ram1.jpg">
+        <img src="images/ram1.jpg" alt="RAM" width="600" height="400">
+    </a>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="images/ram2.jpg">
+        <img src="images/ram2.jpg" alt="RAM" width="600" height="400">
+    </a>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="images/ram3.jpg">
+        <img src="images/ram3.jpg" alt="RAM" width="600" height="400">
+    </a>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="images/ram4.jpg">
+        <img src="images/ram4.jpg" alt="RAM" width="600" height="400">
+    </a>
+</div>
+<div class="gallery">
+    <a target="_blank" href="images/ram5.jpg">
+        <img src="images/ram5.jpg" alt="RAM" width="600" height="400">
+    </a>
+</div>
+<div class="gallery">
+    <a target="_blank" href="images/ram6.jpg">
+        <img src="images/ram6.jpg" alt="RAM" width="600" height="400">
+    </a>
+</div>
+    <div class="gallery">
+        <a target="_blank" href="images/porsche4.jpg">
+            <img src="images/porsche4.jpg" alt="Porsche" width="600" height="400">
+        </a>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/porsche3.jpg">
+            <img src="images/porsche3.jpg" alt="Porsche" width="600" height="400">
+        </a>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images/porsche1.jpg">
+            <img src="images/porsche1.jpg" alt="Porsche" width="600" height="400">
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

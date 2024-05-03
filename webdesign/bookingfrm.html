@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <style>
+        body{
+            background-image: url(images/backgrnd.jpg);
+            color: #f2f2f2;
+
+        }
+        .bloom{
+            margin-top: 100px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            padding: 30px;
+            margin-left: 500px;
+            justify-content: center;
+            align-content: center;
+            border: 20px;
+            position: relative;
+            width: 400px;
+            height: 440px;
+            border-radius: 25px;
+        }
+    </style>
+
+</head>
+<body>
+<section>
+    <form action="action_page.php" class="bloom">
+        <h2>HOTEL BOOKING FORM</h2><br>
+        <lable for="fname">First name:</lable>
+        <input type="text" id="fname" name="fname" required="required"><br><br>
+        <lable for="sname">Second name:</lable>
+        <input type="text" id="sname" name="Sname" required="required"><br><br>
+        <lable for="ID">ID No:</lable>
+        <input type="number" id="ID" name="" required="required"><br><br>
+        <lable for="phone">Phone No:</lable>
+        <input type="number" id="phone" name="phone" required="required"><br><br>
+        Gender: Male  <input type="radio" name="male" value="Male">  Female  <input type="radio" name="male" value="Male"><br><br>
+        Hobby Preference:<br>
+        <input type="checkbox" name="swimming" value="swimming">Swimming<br>
+        <input type="checkbox" name="hiking" value="hiking">Hiking<br>
+        <input type="checkbox" name="others" value="others">Others<br><br>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" placeholder="" required></textarea><br><br>
+        <button type="submit" class="btn">Submit</button>
+        <button type="reset" class="btn1">Reset</button>
+    </form>
+</section>
+</body>
+</head>
+</html>

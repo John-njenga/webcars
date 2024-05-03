@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        .topnav {
+            overflow: hidden;
+            background: transparent;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #a2d328;
+            color: white;
+        }
+        .sweet{
+        padding: 100px 0px 0px 600px ;
+        }
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid;
+}
+.btn{
+    width: 70%;
+    height: 45px;
+    background: green;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f2f2f2;
+    margin-bottom: 10px;
+}
+.btn1{
+    width: 70%;
+    height: 45px;
+    background: royalblue;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+    </style>
+</head>
+<body style="background: url(images/banner.jpg)">
+<div class="topnav">
+
+    <a href="simpleweb.html">Home</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Contacts.html">Contacts</a>
+    <a class="active" href="formuser.html">Login</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<div class="sweet">
+<div class="wrapper">
+    <div class="form-box login">
+        <h2 style="color: #f2f2f2">Log Details</h2>
+        <form action="#">
+            <div class="input-box" style="color: #f2f2f2">
+                <span class="icon"></span>
+                <label>Username</label>
+                <input type="Username" required>
+            </div>
+<br>
+            <div class="input-box" style="color: #f2f2f2">
+                <span class="icon"></span>
+                <label>Password</label>
+                <input type="Password" required>
+            </div>
+            <br>
+            <div class="remember" style="color: #f2f2f2">
+                <label><input type="checkbox">
+                Remember me</label>
+            </div>
+            <br>
+            <button type="submit" class="btn">Submit</button>
+
+            <button type="reset" class="btn1">Reset</button>
+        </form>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
